@@ -1,0 +1,3 @@
+N,P,K,temperature,humidity,ph,rainfall,label,Predicted_Crop,Correct
+60,59,22,31.86847286,66.74217464,7.191522601,74.22238583,blackgram,maize,False
+67,43,39,26.04371967,84.96907151,5.9999690260000005,186.7536773,rice,jute,False

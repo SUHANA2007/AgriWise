@@ -1,0 +1,19 @@
+
+YIELDWISE - FINAL REGRESSION RESULTS
+
+Selected Model: Random Forest
+
+Training Records: 10193
+Testing Records: 2937
+
+Training Period: 1990 - 2008
+Testing Period: 2009 - 2013
+
+Mean Absolute Error (MAE): 11663.66
+Root Mean Squared Error (RMSE): 22747.64
+R2 Score: 0.9322
+
+Model selection was performed using chronological
+cross-validation on the training dataset.
+
+The test dataset was reserved for final evaluation.

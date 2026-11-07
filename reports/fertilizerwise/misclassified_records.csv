@@ -1,0 +1,27 @@
+Nitrogen,Phosphorus,Potassium,pH,Rainfall,Temperature,District_Name,Soil_color,Crop,Fertilizer,Actual,Predicted,Correct
+70,40,35,7.0,900,35,Pune,Black,Jowar,SSP,SSP,Urea,False
+50,25,30,7.0,500,30,Sangli,Black,Moong,Urea,Urea,MOP,False
+45,25,30,7.0,500,30,Sangli,Black,Moong,Urea,Urea,MOP,False
+30,30,25,5.5,700,25,Pune,Red,Groundnut,SSP,SSP,Chilated Micronutrient,False
+25,30,25,5.5,700,25,Pune,Red,Groundnut,SSP,SSP,Chilated Micronutrient,False
+20,35,20,6.5,900,25,Kolhapur,Dark Brown,Urad,DAP,DAP,Urea,False
+100,60,40,6.5,800,15,Kolhapur,Dark Brown,Wheat,19:19:19 NPK,19:19:19 NPK,Urea,False
+65,40,35,7.0,900,35,Pune,Black,Jowar,SSP,SSP,Urea,False
+30,35,25,6.5,900,25,Kolhapur,Dark Brown,Urad,Urea,Urea,DAP,False
+100,45,45,6.5,600,20,Kolhapur,Dark Brown,Wheat,19:19:19 NPK,19:19:19 NPK,Urea,False
+100,45,60,6.0,500,15,Kolhapur,Dark Brown,Wheat,19:19:19 NPK,19:19:19 NPK,Urea,False
+45,25,15,6.0,500,20,Satara,Black,Gram,MOP,MOP,Sulphur,False
+30,45,20,6.0,600,25,Sangli,Reddish Brown,Tur,MOP,MOP,Urea,False
+50,25,15,6.0,500,20,Satara,Black,Gram,MOP,MOP,Sulphur,False
+25,35,25,6.5,900,25,Kolhapur,Dark Brown,Urad,Urea,Urea,DAP,False
+40,30,15,6.5,600,25,Satara,Black,Gram,DAP,DAP,MOP,False
+20,20,40,5.5,1500,20,Sangli,Black,Turmeric,Urea,Urea,White Potash,False
+40,35,35,7.5,800,25,Kolhapur,Black,Jowar,10:26:26 NPK,10:26:26 NPK,Urea,False
+30,30,40,5.5,900,25,Kolhapur,Medium Brown,Rice,Urea,Urea,50:26:26 NPK,False
+80,60,45,7.0,700,25,Satara,Black,Wheat,19:19:19 NPK,19:19:19 NPK,Urea,False
+80,55,50,7.5,700,25,Satara,Black,Wheat,19:19:19 NPK,19:19:19 NPK,Urea,False
+150,80,80,8.5,1100,20,Solapur,Black,Sugarcane,DAP,DAP,Urea,False
+40,30,10,6.5,700,25,Kolhapur,Black,Gram,Sulphur,Sulphur,18:46:00 NPK,False
+40,25,15,6.0,500,20,Satara,Black,Gram,MOP,MOP,Sulphur,False
+120,80,55,7.5,500,20,Sangli,Black,Maize,SSP,SSP,MOP,False
+50,25,20,6.5,700,25,Kolhapur,Medium Brown,Masoor,DAP,DAP,Urea,False

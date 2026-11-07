@@ -1,0 +1,20 @@
+,Predicted_10:10:10 NPK,Predicted_10:26:26 NPK,Predicted_12:32:16 NPK,Predicted_13:32:26 NPK,Predicted_18:46:00 NPK,Predicted_19:19:19 NPK,Predicted_20:20:20 NPK,Predicted_50:26:26 NPK,Predicted_Ammonium Sulphate,Predicted_Chilated Micronutrient,Predicted_DAP,Predicted_Ferrous Sulphate,Predicted_Hydrated Lime,Predicted_MOP,Predicted_Magnesium Sulphate,Predicted_SSP,Predicted_Sulphur,Predicted_Urea,Predicted_White Potash
+Actual_10:10:10 NPK,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Actual_10:26:26 NPK,0,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+Actual_12:32:16 NPK,0,0,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Actual_13:32:26 NPK,0,0,0,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Actual_18:46:00 NPK,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Actual_19:19:19 NPK,0,0,0,0,0,91,0,0,0,0,0,0,0,0,0,0,0,5,0
+Actual_20:20:20 NPK,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0
+Actual_50:26:26 NPK,0,0,0,0,0,0,0,25,0,0,0,0,0,0,0,0,0,0,0
+Actual_Ammonium Sulphate,0,0,0,0,0,0,0,0,10,0,0,0,0,0,0,0,0,0,0
+Actual_Chilated Micronutrient,0,0,0,0,0,0,0,0,0,22,0,0,0,0,0,0,0,0,0
+Actual_DAP,0,0,0,0,0,0,0,0,0,0,130,0,0,1,0,0,0,3,0
+Actual_Ferrous Sulphate,0,0,0,0,0,0,0,0,0,0,0,14,0,0,0,0,0,0,0
+Actual_Hydrated Lime,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0
+Actual_MOP,0,0,0,0,0,0,0,0,0,0,0,0,0,110,0,0,3,1,0
+Actual_Magnesium Sulphate,0,0,0,0,0,0,0,0,0,0,0,0,0,0,43,0,0,0,0
+Actual_SSP,0,0,0,0,0,0,0,0,0,2,0,0,0,1,0,78,0,2,0
+Actual_Sulphur,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Actual_Urea,0,0,0,0,0,0,0,1,0,0,2,0,0,2,0,0,0,267,1
+Actual_White Potash,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4

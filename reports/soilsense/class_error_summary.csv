@@ -1,0 +1,4 @@
+Class,Total_Records,Incorrect_Predictions,Correct_Predictions,Error_Rate_Percent
+0,80,6,74,7.5
+1,88,10,78,11.36
+2,8,5,3,62.5

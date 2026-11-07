@@ -1,0 +1,19 @@
+
+SOILSENSE ERROR ANALYSIS SUMMARY
+
+Total test records: 176
+Correct predictions: 155
+Incorrect predictions: 21
+Test accuracy: 0.8807
+
+Analysis 1:
+Class-wise error analysis saved.
+
+Analysis 2:
+Feature-range error analysis saved.
+
+Misclassified records saved.
+
+Note:
+Class labels 0, 1 and 2 are retained as numerical
+labels. Their meanings have not been independently verified.

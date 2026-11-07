@@ -1,0 +1,130 @@
+AGRIWISE - DATASET VERIFICATION
+
+1. CropWise - Final Audit
+
+   [x] Class distribution checked
+   [x] Class balance verified
+   [x] Numerical ranges checked
+   [x] Possible outliers identified
+   [x] Missing values verified (0)
+   [x] Duplicate records verified (0)
+
+   Total records: 2200
+   Crop classes: 22
+   Records per class: 100
+
+   Outlier counts:
+   N: 0
+   P: 138
+   K: 200
+   Temperature: 86
+   Humidity: 30
+   pH: 57
+   Rainfall: 100
+
+   Decision:
+   Retain all records.
+   Do not remove IQR flags without
+   evidence that they are invalid.
+
+2. SoilSense - Final Audit
+
+[x] Class distribution checked
+[x] Numerical ranges checked
+[x] Possible outliers identified
+[x] Missing values verified (0)
+[x] Duplicate records verified (0)
+
+Total records: 880
+Fertility classes: 3
+
+Class 0: 401 (45.57%)
+Class 1: 440 (50.00%)
+Class 2: 39 (4.43%)
+
+Data risks:
+- Class imbalance
+- Unusual numerical values requiring verification
+
+Decision:
+- Retain all records initially.
+- Use stratified train-test split.
+- Evaluate per-class precision, recall and F1.
+- Verify units and unusual values before final preprocessing.
+
+3. FertilizerWise - Final Audit
+
+[x] Class distribution checked
+[x] Numerical ranges checked
+[x] Possible outliers identified
+[x] Categorical values checked
+[x] Missing values verified (0)
+[x] Duplicate records verified (0)
+
+Total records: 4513
+Fertilizer classes: 19
+
+Largest class: Urea (1364)
+Smallest classes: 18:46:00 NPK (6),
+                  Sulphur (6)
+
+Categorical cleaning:
+Soil_color: 7 values before trimming,
+            6 values after trimming
+
+Possible outliers:
+Nitrogen: 0
+Phosphorus: 0
+Potassium: 495
+pH: 0
+Rainfall: 9
+Temperature: 0
+
+Data risks:
+- Severe class imbalance
+- Regional dataset limitation
+- Potassium outlier flags
+
+Decision:
+- Retain all records initially.
+- Trim categorical whitespace.
+- Evaluate per-class precision, recall and F1.
+- Investigate rare fertilizer classes.
+
+4. YieldWise - Final Audit
+
+[x] Dataset size checked
+[x] Numerical ranges checked
+[x] Yield distribution checked
+[x] Possible outliers identified
+[x] Missing values verified (0)
+[x] Duplicate records verified (0)
+[x] Crop categories checked
+[x] Area categories checked
+
+Total records: 28,242
+Total columns: 8
+Areas: 101
+Crop types: 10
+Years: 23 (1990–2013, excluding 2003)
+
+Target: hg/ha_yield
+
+Selected predictors:
+Area, Item, Year,
+average_rain_fall_mm_per_year,
+pesticides_tonnes, avg_temp
+
+Possible target outliers: 2,059
+
+Data risks:
+- Positively skewed yield distribution
+- Different yield ranges across crop types
+- Year 2003 is absent
+- Historical data may not represent current conditions
+
+Decision:
+Retain records initially.
+Exclude Unnamed: 0 from predictors.
+Investigate possible outliers by crop.
+Use suitable regression evaluation metrics.

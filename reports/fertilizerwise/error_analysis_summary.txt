@@ -1,0 +1,20 @@
+
+FERTILIZERWISE ERROR ANALYSIS SUMMARY
+
+Total test records: 903
+Correct predictions: 877
+Incorrect predictions: 26
+Test accuracy: 0.9712
+
+Analysis 1:
+Fertilizer class-wise error analysis saved.
+
+Analysis 2:
+Numeric feature-group and categorical feature
+error analysis saved.
+
+Misclassified records saved.
+
+Note:
+Rare fertilizer classes may have very few test records.
+Their error rates should be interpreted cautiously.

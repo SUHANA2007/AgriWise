@@ -1,0 +1,46 @@
+Feature,Feature_Group,Total_Records,Incorrect_Predictions,Correct_Predictions,Error_Rate_Percent
+Nitrogen,"(80.0, 120.0]",309,4,305,1.29
+Nitrogen,"(19.999, 80.0]",343,21,322,6.12
+Nitrogen,"(120.0, 150.0]",251,1,250,0.4
+Phosphorus,"(60.0, 90.0]",271,2,269,0.74
+Phosphorus,"(45.0, 60.0]",337,3,334,0.89
+Phosphorus,"(9.999, 45.0]",295,21,274,7.12
+Potassium,"(60.0, 150.0]",298,1,297,0.34
+Potassium,"(4.999, 45.0]",335,22,313,6.57
+Potassium,"(45.0, 60.0]",270,3,267,1.11
+pH,"(7.0, 8.5]",179,4,175,2.23
+pH,"(5.499, 6.5]",481,17,464,3.53
+pH,"(6.5, 7.0]",243,5,238,2.06
+Rainfall,"(299.999, 700.0]",367,16,351,4.36
+Rainfall,"(700.0, 900.0]",265,8,257,3.02
+Rainfall,"(900.0, 1700.0]",271,2,269,0.74
+Temperature,"(9.999, 25.0]",537,22,515,4.1
+Temperature,"(25.0, 30.0]",202,2,200,0.99
+Temperature,"(30.0, 40.0]",164,2,162,1.22
+District_Name,Kolhapur,289,10,279,3.46
+District_Name,Pune,93,4,89,4.3
+District_Name,Sangli,166,5,161,3.01
+District_Name,Satara,214,6,208,2.8
+District_Name,Solapur,141,1,140,0.71
+Soil_color,Black,433,15,418,3.46
+Soil_color,Dark Brown,139,6,133,4.32
+Soil_color,Light Brown,9,0,9,0.0
+Soil_color,Medium Brown,10,2,8,20.0
+Soil_color,Red,262,2,260,0.76
+Soil_color,Reddish Brown,50,1,49,2.0
+Crop,Cotton,136,0,136,0.0
+Crop,Ginger,25,0,25,0.0
+Crop,Gram,17,5,12,29.41
+Crop,Grapes,24,0,24,0.0
+Crop,Groundnut,38,2,36,5.26
+Crop,Jowar,70,3,67,4.29
+Crop,Maize,66,1,65,1.52
+Crop,Masoor,1,1,0,100.0
+Crop,Moong,14,2,12,14.29
+Crop,Rice,63,1,62,1.59
+Crop,Soybean,10,0,10,0.0
+Crop,Sugarcane,198,1,197,0.51
+Crop,Tur,19,1,18,5.26
+Crop,Turmeric,14,1,13,7.14
+Crop,Urad,28,3,25,10.71
+Crop,Wheat,180,5,175,2.78
